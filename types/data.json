@@ -1,0 +1,39 @@
+{
+    "mainPicture": "/images/anh-nen-1.jpg",
+    "wifeName": "Lê miền",
+    "husbandName": "Sĩ Phong",
+    "wifeFamily": {
+        "motherName": "Lê Thị Kịp",
+        "fatherName": "Lê Văn Hùng",
+        "address": "Ca công - Hoài Hương - Hoài Nhơn - Bình Định"
+    },
+    "husbandFamily": {
+        "motherName": "Phạm Thị Tham",
+        "fatherName": "Nguyễn Cương",
+        "address": "Kim Giao Trung - Hoài Hải - Hoài Nhơn - Bình Định"
+    },
+    "times": {
+        "day": "30/10/2023",
+        "dayOfWeek": "Thứ Hai",
+        "lunar": "(Nhằm ngày 16 tháng 9 năm quý mão)",
+        "time": "15h00",
+        "address": "Quán cà phê|Thành đạt"
+    },
+    "timeLine": {
+        "welcome": "14:00",
+        "talk": "14:30",
+        "party": "15:00"
+    },
+    "albums": [
+        "/images/album-1.jpg",
+        "/images/album-2.jpg",
+        "/images/album-3.jpg",
+        "/images/album-4.jpg",
+        "/images/album-5.jpg",
+        "/images/album-6.jpg",
+        "/images/album-7.jpg",
+        "/images/album-8.jpg",
+        "/images/album-9.jpg",
+        "/images/album-10.jpg"
+    ]
+}
