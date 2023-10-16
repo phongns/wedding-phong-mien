@@ -9,10 +9,10 @@ useHead({
 </script>
 
 <template>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&amp;family=Philosopher:wght@400;700&amp;family=Jura:wght@400;700&amp;display=swap"
+        as="style" />
   <b-container>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&amp;family=Philosopher:wght@400;700&amp;family=Jura:wght@400;700&amp;display=swap"
-          as="style">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Jura:wght@400;700&amp;family=Philosopher:wght@400;700&amp;family=Arima:wght@400;700&amp;family=Athiti:wght@400;700&amp;family=Tinos:wght@400;700&amp;family=Thasadith:wght@400;700&amp;display=swap" as="style"> -->
     <div class="main-picture">
       <img :src="data.mainPicture" alt="ảnh cưới" loading="lazy" />
@@ -163,6 +163,13 @@ useHead({
 @font-face {
   font-family: "font-3";
   src: url("https://w.ladicdn.com/5d9a96b88c0aa631d811d695/9slide05-windsong-20220701032651.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body,
