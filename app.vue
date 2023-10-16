@@ -284,7 +284,7 @@ html {
 
 .timeline {
   position: relative;
-  padding: 5rem;
+  padding: 10px;
   overflow: hidden;
 
   &::after {
@@ -308,6 +308,7 @@ html {
       position: absolute;
       right: 50%;
       // top: 15px;
+      white-space: nowrap;
       text-align: right;
       margin-right: 20px;
     }
