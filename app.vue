@@ -38,8 +38,12 @@ useHead({
     </div>
     <b-container>
       <div class="info--couple d-flex justify-content-center text-center mb-5">
-        <div class="w-50">{{ data.husbandName }}</div>
-        <div class="w-50">{{ data.wifeName }}</div>
+        <div class="w-50">
+          <div>{{ data.husbandName }}</div>
+        </div>
+        <div class="w-50">
+          <div>{{ data.wifeName }}</div>
+        </div>
       </div>
       <div class="d-flex justify-content-center text-center info-family">
         <div class="w-50">
@@ -391,6 +395,15 @@ img {
 
   .container {
     max-width: 400px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .info--couple {
+    > div > div {
+      max-width: 170px;
+      margin: 0 auto;
+    }
   }
 }
 </style>
