@@ -14,20 +14,22 @@ useHead({
         as="style" />
   <!-- <b-container> -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Jura:wght@400;700&amp;family=Philosopher:wght@400;700&amp;family=Arima:wght@400;700&amp;family=Athiti:wght@400;700&amp;family=Tinos:wght@400;700&amp;family=Thasadith:wght@400;700&amp;display=swap" as="style"> -->
-  <div class="main-picture m-auto">
-    <img :src="data.mainPicture" alt="ảnh cưới" loading="lazy" />
-    <span class="bg-divider bg-overlay">
-      <svg xmlns="http://www.w3.org/2000/svg" class="divider" viewBox="0 0 1024 160" preserveAspectRatio="none">
-        <g class="divider-g">
-          <path class="divider-path divider-o4"
-                d="M0 182.086h1024V41.593c-28.058-21.504-60.109-37.581-97.075-37.581-112.845 0-198.144 93.798-289.792 93.798S437.658 6.777 351.846 6.777s-142.234 82.125-238.49 82.125c-63.078 0-75.776-31.744-113.357-53.658L0 182.086z"></path>
-          <path class="divider-path divider-o3" d="M1024 181.062v-75.878c-39.731 15.872-80.794 27.341-117.658 25.805-110.387-4.506-191.795-109.773-325.53-116.224-109.158-5.12-344.166 120.115-429.466 166.298H1024v-.001z"></path>
-          <path class="divider-path divider-o2" d="M0 182.086h1024V90.028C966.451 59.103 907.059 16.3 824.115 15.071 690.278 13.023 665.19 102.93 482.099 102.93S202.138-1.62 74.24.019C46.49.326 21.811 4.217 0 9.849v172.237z"></path>
-          <path class="divider-path divider-o1" d="M0 182.086h1024V80.505c-37.171 19.558-80.691 35.328-139.571 36.25-151.142 2.355-141.619-28.57-298.496-29.184s-138.854 47.002-305.459 43.725C132.813 128.428 91.238 44.563 0 28.179v153.907z"></path>
-          <path class="divider-path" d="M0 182.086h1024V80.505c-37.171 19.558-80.691 35.328-139.571 36.25-151.142 2.355-141.619-28.57-298.496-29.184s-138.854 47.002-305.459 43.725C132.813 128.428 91.238 44.563 0 28.179v153.907z"></path>
-        </g>
-      </svg>
-    </span>
+  <div class="main-picture-container">
+    <div class="main-picture m-auto">
+      <img :src="data.mainPicture" alt="ảnh cưới" loading="lazy" />
+      <span class="bg-divider bg-overlay">
+        <svg xmlns="http://www.w3.org/2000/svg" class="divider" viewBox="0 0 1024 160" preserveAspectRatio="none">
+          <g class="divider-g">
+            <path class="divider-path divider-o4"
+                  d="M0 182.086h1024V41.593c-28.058-21.504-60.109-37.581-97.075-37.581-112.845 0-198.144 93.798-289.792 93.798S437.658 6.777 351.846 6.777s-142.234 82.125-238.49 82.125c-63.078 0-75.776-31.744-113.357-53.658L0 182.086z"></path>
+            <path class="divider-path divider-o3" d="M1024 181.062v-75.878c-39.731 15.872-80.794 27.341-117.658 25.805-110.387-4.506-191.795-109.773-325.53-116.224-109.158-5.12-344.166 120.115-429.466 166.298H1024v-.001z"></path>
+            <path class="divider-path divider-o2" d="M0 182.086h1024V90.028C966.451 59.103 907.059 16.3 824.115 15.071 690.278 13.023 665.19 102.93 482.099 102.93S202.138-1.62 74.24.019C46.49.326 21.811 4.217 0 9.849v172.237z"></path>
+            <path class="divider-path divider-o1" d="M0 182.086h1024V80.505c-37.171 19.558-80.691 35.328-139.571 36.25-151.142 2.355-141.619-28.57-298.496-29.184s-138.854 47.002-305.459 43.725C132.813 128.428 91.238 44.563 0 28.179v153.907z"></path>
+            <path class="divider-path" d="M0 182.086h1024V80.505c-37.171 19.558-80.691 35.328-139.571 36.25-151.142 2.355-141.619-28.57-298.496-29.184s-138.854 47.002-305.459 43.725C132.813 128.428 91.238 44.563 0 28.179v153.907z"></path>
+          </g>
+        </svg>
+      </span>
+    </div>
   </div>
   <!-- </b-container> -->
   <div class="info">
@@ -192,6 +194,10 @@ img {
   height: auto;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.main-picture-container {
+  background-image: radial-gradient(circle at 44% 9%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 74%, transparent 74%, transparent 83%, transparent 83%, transparent 100%), radial-gradient(circle at 0% 23%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 8%, transparent 8%, transparent 69%, transparent 69%, transparent 100%), radial-gradient(circle at 87% 35%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 10%, transparent 10%, transparent 61%, transparent 61%, transparent 100%), radial-gradient(circle at 22% 7%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 16%, transparent 16%, transparent 88%, transparent 88%, transparent 100%), radial-gradient(circle at 37% 26%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 7%, transparent 7%, transparent 9%, transparent 9%, transparent 100%), radial-gradient(circle at 86% 59%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 77%, transparent 77%, transparent 95%, transparent 95%, transparent 100%), radial-gradient(circle at 75% 83%, hsla(153, 0%, 47%, 0.05) 0%, hsla(153, 0%, 47%, 0.05) 35%, transparent 35%, transparent 86%, transparent 86%, transparent 100%), linear-gradient(0deg, hsl(279, 0%, 100%), hsl(279, 0%, 100%));
 }
 
 .main-picture {
