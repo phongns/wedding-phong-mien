@@ -73,7 +73,7 @@ useHead({
       </div>
 
       <div class="d-block m-auto" style="max-width: 250px;">
-        <img src="images/anh-nen-2.jpg" alt="ảnh nền" style="border-radius: 10%;" />
+        <img src="images/anh-nen-2.jpg" alt="ảnh nền" style="border-radius: 10%;" loading="lazy" />
       </div>
 
       <div class="mt-5 text-center font-philosopher" style="font-size: 32px;">Thời gian</div>
