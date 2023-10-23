@@ -153,7 +153,7 @@ useHead({
     <b-container>
       <div class="text-center font-jura mb-5" style="color: white;font-size: 32px;">Albums</div>
       <BCarousel controls indicators>
-        <BCarouselSlide v-for="album in  data.albums " :img-src="album">
+        <BCarouselSlide v-for="album in  data.albums " :img-src="album" style="border-radius: 5%;overflow: hidden;">
         </BCarouselSlide>
       </BCarousel>
     </b-container>
