@@ -13,16 +13,16 @@
         "address": "Kim Giao Trung - Hoài Hải - Hoài Nhơn - Bình Định"
     },
     "times": {
-        "day": "30/10/2023",
-        "dayOfWeek": "Thứ Hai",
-        "lunar": "(Nhằm ngày 16 tháng 9 năm quý mão)",
-        "time": "15h00",
-        "address": "Quán cà phê|Thành đạt"
+        "day": "09/12/2023",
+        "dayOfWeek": "Thứ Bảy",
+        "lunar": "(Nhằm ngày 27 tháng 10 năm quý mão)",
+        "time": "12h00",
+        "address": "Nhà hàng tiệc cưới Vườn Cau|Sảnh Daisy|360 Phan Văn Trị, P.11, Bình Thạnh, HCM"
     },
     "timeLine": {
-        "talk": "14:00",
-        "welcome": "14:30",
-        "party": "15:00"
+        "talk": "12:00",
+        "welcome": "11:00",
+        "party": "12:30"
     },
     "albums": [
         "/images/album-1.jpg",
